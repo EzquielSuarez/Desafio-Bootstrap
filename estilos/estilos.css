@@ -1,0 +1,31 @@
+
+
+/*Estilo de la imagenes del carrusel*/
+.carousel-inner img{
+    height: 27rem;
+}
+
+
+/*Responsive de la página principal*/
+@media (max-width: 768px) {
+    #texto {
+        width: 50% !important;
+    }
+    .carousel-inner img{
+        height: 10rem;
+    }
+    
+    #equipo p{
+        display: none;
+    }
+    .container-fluid a img{
+        height: 5rem;
+    }
+    main .nosotros h3{
+        font-size: 0,30rem !important;
+    }
+    main .nosotros p{
+        font-size: 0,10rem !important;
+    }
+}
+
